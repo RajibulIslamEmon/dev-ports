@@ -3,6 +3,16 @@ body {
     margin: 0 auto;
 }
 
+.color {
+    color: orange;
+}
+
+h1 {
+
+    font-size: 300%;
+    white-space: nowrap;
+}
+
 .first-part {
     display: flex;
     max-width: 100%;
@@ -21,19 +31,25 @@ body {
 
 }
 
-.welcome-part {
+.third-part {
+    display: flex;
+    max-width: 100%;
+    margin-right: 50px;
+
+}
+
+.exp-bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 79%;
+    background-size: 100px;
+    padding-left: 25px;
+}
+
+.displaying-part {
     width: 50%;
     padding-left: 96px;
 
-}
-
-.color {
-    color: orange;
-}
-
-h1 {
-
-    font-size: 300%;
 }
 
 .texting-part {
@@ -57,4 +73,46 @@ h1 {
     padding: 10px 35px;
     border-radius: 5px;
 
+}
+
+.box-model {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.border-one {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+
+}
+
+.border-two {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+.displaying-part-two {
+    width: 50%;
+    margin-left: 25px;
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+
+
+}
+
+.displaying-part-three {
+    width: 50%;
+    margin-left: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
 }
