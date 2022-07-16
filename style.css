@@ -66,7 +66,7 @@ h1 {
 
 .button-part {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(tomato, rgb(247, 122, 100));
     color: white;
     font-size: large;
     font-weight: bold;
